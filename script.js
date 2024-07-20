@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     slideInElements.forEach((element) => {
       if (element.id === "projects") {
         slideInAt =
-          window.scrollY + window.innerHeight - element.clientHeight / 2 + 450;
+          window.scrollY + window.innerHeight - element.clientHeight / 2 + 750;
       } else {
         slideInAt =
           window.scrollY + window.innerHeight - element.clientHeight / 2;
